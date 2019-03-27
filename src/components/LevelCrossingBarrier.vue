@@ -64,13 +64,12 @@ export default {
       maxVal: 100,
       nrRects: 6,
       r: 25,
-      direction: 1,
-      anim: null,
+      tweenVal: 0,
     };
   },
   computed: {
     transform() {
-      return `rotate(${-this.val / (this.maxVal - this.minVal) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
+      return `rotate(${-this.tweenVal / (this.maxVal - this.minVal) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
     },
     val() {
       if (this.kob === 0 && this.kfb === 0) {
