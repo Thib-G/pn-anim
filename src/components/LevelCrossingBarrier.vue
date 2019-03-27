@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <svg :width="width" :height="height">
+  <svg :width="width" :height="height">
+    <g :transform="mirror">
       <g :transform="`translate(${barrierHeight},${height - 6 * barrierHeight})`">
         <g :transform="transform">
           <rect
@@ -20,24 +20,13 @@
           />
         </g>
       </g>
-    </svg>
-    <div>
-      <input
-        id="pn"
-        type="range"
-        name="pn"
-        :min="minVal"
-        :max="maxVal"
-        v-model="val"
-      >
-    </div>
-    <div>
-      {{ val }}
-    </div>
-  </div>
+    </g>
+  </svg>
 </template>
 
 <script>
+import { TweenLite } from 'gsap';
+
 export default {
   props: {
     cb: {
@@ -52,6 +41,10 @@ export default {
       type: Number,
       required: true,
     },
+    reverse: {
+      type: Number,
+      default: 1,
+    },
   },
   data() {
     return {
@@ -64,18 +57,30 @@ export default {
       maxVal: 100,
       nrRects: 6,
       r: 25,
-      tweenVal: 0,
+      tweenVal: { x: 0 },
     };
+  },
+  created() {
+    this.tweenVal = { x: this.val };
+  },
+  watch: {
+    val(newVal, oldVal) {
+      this.tweenVal = { x: oldVal };
+      TweenLite.to(this.tweenVal, 1.5, { x: newVal });
+    },
   },
   computed: {
     transform() {
-      return `rotate(${-this.tweenVal / (this.maxVal - this.minVal) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
+      return `rotate(${-this.tweenVal.x / (this.maxVal - this.minVal) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
     },
     val() {
       if (this.kob === 0 && this.kfb === 0) {
         return 50;
       }
       return this.kob * (1 - this.kfb) * 100;
+    },
+    mirror() {
+      return `translate(${this.reverse === -1 ? this.width : 0},0) scale(${this.reverse},1)`;
     },
   },
 };
