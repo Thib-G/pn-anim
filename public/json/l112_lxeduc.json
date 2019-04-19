@@ -1,0 +1,3902 @@
+[
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "a",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "ax",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cat_2a",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cat_a",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cb_wz",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cb_xy",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 393,
+		"ts_meas" : 1.549785703475704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 532,
+		"ts_meas" : 1.549785837378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1005,
+		"ts_meas" : 1.549786004682249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1144,
+		"ts_meas" : 1.549786138577716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 417,
+		"ts_meas" : 1.549786305876433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 556,
+		"ts_meas" : 1.549786439779708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1030,
+		"ts_meas" : 1.549786607175171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325767,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1169,
+		"ts_meas" : 1.54978674107843E9,
+		"ts_packet" : 1.54978662427843E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 443,
+		"ts_meas" : 1.549786908477162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 583,
+		"ts_meas" : 1.549787042480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1057,
+		"ts_meas" : 1.549787209875906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325901,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1196,
+		"ts_meas" : 1.549787343779179E9,
+		"ts_packet" : 1.549787224279179E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 471,
+		"ts_meas" : 1.549787511277915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 610,
+		"ts_meas" : 1.549787645181173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1084,
+		"ts_meas" : 1.549787812576645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 24,
+		"ts_meas" : 1.549787946575366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 498,
+		"ts_meas" : 1.549788113978639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 638,
+		"ts_meas" : 1.54978824798193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1113,
+		"ts_meas" : 1.549788415477391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 53,
+		"ts_meas" : 1.54978854947612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 527,
+		"ts_meas" : 1.549788716879372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 667,
+		"ts_meas" : 1.54978885087485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1142,
+		"ts_meas" : 1.549789018378139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 82,
+		"ts_meas" : 1.549789152376847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "cb_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cfx",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cl",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 228,
+		"ts_meas" : 1.549785686975704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 582,
+		"ts_meas" : 1.549785842378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 840,
+		"ts_meas" : 1.549785988182249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1193,
+		"ts_meas" : 1.549786143477716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 252,
+		"ts_meas" : 1.549786289376433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 606,
+		"ts_meas" : 1.549786444779708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 864,
+		"ts_meas" : 1.549786590575171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 19,
+		"ts_meas" : 1.549786746081715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 278,
+		"ts_meas" : 1.549786891977162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 633,
+		"ts_meas" : 1.549787047480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 892,
+		"ts_meas" : 1.549787193375906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 46,
+		"ts_meas" : 1.549787348782459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 305,
+		"ts_meas" : 1.549787494677915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 660,
+		"ts_meas" : 1.549787650181173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 919,
+		"ts_meas" : 1.549787796076645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 74,
+		"ts_meas" : 1.549787951575366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 333,
+		"ts_meas" : 1.549788097478639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 688,
+		"ts_meas" : 1.54978825298193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 947,
+		"ts_meas" : 1.549788398877391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 103,
+		"ts_meas" : 1.54978855447612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 362,
+		"ts_meas" : 1.549788700379372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 717,
+		"ts_meas" : 1.54978885587485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 976,
+		"ts_meas" : 1.549789001778139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "cl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 132,
+		"ts_meas" : 1.549789157376847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "cl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "cox",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "da",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "dcl",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 225,
+		"ts_meas" : 1.549785686675704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 579,
+		"ts_meas" : 1.549785842078965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 837,
+		"ts_meas" : 1.549785987882249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1191,
+		"ts_meas" : 1.549786143277716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 249,
+		"ts_meas" : 1.549786289076433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 604,
+		"ts_meas" : 1.549786444579708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 862,
+		"ts_meas" : 1.549786590375171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 17,
+		"ts_meas" : 1.549786745881715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 275,
+		"ts_meas" : 1.549786891677162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 631,
+		"ts_meas" : 1.549787047280448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 889,
+		"ts_meas" : 1.549787193075906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 44,
+		"ts_meas" : 1.549787348582459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 303,
+		"ts_meas" : 1.549787494477915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 658,
+		"ts_meas" : 1.549787649981173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 916,
+		"ts_meas" : 1.549787795776645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 72,
+		"ts_meas" : 1.549787951375366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 330,
+		"ts_meas" : 1.549788097178639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 686,
+		"ts_meas" : 1.54978825278193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 945,
+		"ts_meas" : 1.549788398677391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 101,
+		"ts_meas" : 1.54978855427612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 359,
+		"ts_meas" : 1.549788700079372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 715,
+		"ts_meas" : 1.54978885567485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 974,
+		"ts_meas" : 1.549789001578139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "dcl",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 130,
+		"ts_meas" : 1.549789157176847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "dcl",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "dkx",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "drga",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "drpa",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "fdo",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kav",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kdo",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kfb_w",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kfb_x",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 441,
+		"ts_meas" : 1.549785708275704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 544,
+		"ts_meas" : 1.549785838578965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1052,
+		"ts_meas" : 1.549786009382249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1155,
+		"ts_meas" : 1.549786139677716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 465,
+		"ts_meas" : 1.549786310676433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 568,
+		"ts_meas" : 1.549786440979708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1078,
+		"ts_meas" : 1.549786611975171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325767,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1182,
+		"ts_meas" : 1.54978674237843E9,
+		"ts_packet" : 1.54978662427843E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 492,
+		"ts_meas" : 1.549786913377162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 595,
+		"ts_meas" : 1.549787043680448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1105,
+		"ts_meas" : 1.549787214675906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 8,
+		"ts_meas" : 1.549787344982459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 518,
+		"ts_meas" : 1.549787515977915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 621,
+		"ts_meas" : 1.549787646281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1131,
+		"ts_meas" : 1.549787817276645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 36,
+		"ts_meas" : 1.549787947775366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 546,
+		"ts_meas" : 1.549788118778639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 650,
+		"ts_meas" : 1.54978824918193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1161,
+		"ts_meas" : 1.549788420277391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 64,
+		"ts_meas" : 1.54978855057612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 576,
+		"ts_meas" : 1.549788721779372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 680,
+		"ts_meas" : 1.54978885217485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1189,
+		"ts_meas" : 1.549789023078139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 93,
+		"ts_meas" : 1.549789153476847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kfb_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kfb_y",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 475,
+		"ts_meas" : 1.549785711675704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 540,
+		"ts_meas" : 1.549785838178965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1086,
+		"ts_meas" : 1.549786012782249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1154,
+		"ts_meas" : 1.549786139577716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 499,
+		"ts_meas" : 1.549786314076433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 565,
+		"ts_meas" : 1.549786440679708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1111,
+		"ts_meas" : 1.549786615275171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325767,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1178,
+		"ts_meas" : 1.54978674197843E9,
+		"ts_packet" : 1.54978662427843E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 524,
+		"ts_meas" : 1.549786916577162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 591,
+		"ts_meas" : 1.549787043280448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1139,
+		"ts_meas" : 1.549787218075906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 6,
+		"ts_meas" : 1.549787344782459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 552,
+		"ts_meas" : 1.549787519377915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 620,
+		"ts_meas" : 1.549787646181173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1165,
+		"ts_meas" : 1.549787820676645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 33,
+		"ts_meas" : 1.549787947475366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 579,
+		"ts_meas" : 1.549788122078639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 648,
+		"ts_meas" : 1.54978824898193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1194,
+		"ts_meas" : 1.549788423577391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 63,
+		"ts_meas" : 1.54978855047612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 609,
+		"ts_meas" : 1.549788725079372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 676,
+		"ts_meas" : 1.54978885177485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326287,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 24,
+		"ts_meas" : 1.549789026581394E9,
+		"ts_packet" : 1.549789024281394E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 91,
+		"ts_meas" : 1.549789153276847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kfb_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kfb_z",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kfx",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kga1",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 232,
+		"ts_meas" : 1.549785687375704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 582,
+		"ts_meas" : 1.549785842378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 844,
+		"ts_meas" : 1.549785988582249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1195,
+		"ts_meas" : 1.549786143677716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 257,
+		"ts_meas" : 1.549786289876433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 607,
+		"ts_meas" : 1.549786444879708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 870,
+		"ts_meas" : 1.549786591175171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 20,
+		"ts_meas" : 1.549786746181715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 283,
+		"ts_meas" : 1.549786892477162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 633,
+		"ts_meas" : 1.549787047480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 897,
+		"ts_meas" : 1.549787193875906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 48,
+		"ts_meas" : 1.549787348982459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 310,
+		"ts_meas" : 1.549787495177915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 661,
+		"ts_meas" : 1.549787650281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 923,
+		"ts_meas" : 1.549787796476645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 75,
+		"ts_meas" : 1.549787951675366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 338,
+		"ts_meas" : 1.549788097978639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 690,
+		"ts_meas" : 1.54978825318193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 951,
+		"ts_meas" : 1.549788399277391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 105,
+		"ts_meas" : 1.54978855467612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 366,
+		"ts_meas" : 1.549788700779372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 718,
+		"ts_meas" : 1.54978885597485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 981,
+		"ts_meas" : 1.549789002278139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "kga1",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 133,
+		"ts_meas" : 1.549789157476847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kga1",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kga2",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 475,
+		"ts_meas" : 1.549785711675704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 582,
+		"ts_meas" : 1.549785842378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1087,
+		"ts_meas" : 1.549786012882249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1195,
+		"ts_meas" : 1.549786143677716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 498,
+		"ts_meas" : 1.549786313976433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 607,
+		"ts_meas" : 1.549786444879708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1111,
+		"ts_meas" : 1.549786615275171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 20,
+		"ts_meas" : 1.549786746181715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 525,
+		"ts_meas" : 1.549786916677162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 633,
+		"ts_meas" : 1.549787047480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1140,
+		"ts_meas" : 1.549787218175906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 48,
+		"ts_meas" : 1.549787348982459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 553,
+		"ts_meas" : 1.549787519477915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 661,
+		"ts_meas" : 1.549787650281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1166,
+		"ts_meas" : 1.549787820776645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 75,
+		"ts_meas" : 1.549787951675366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 579,
+		"ts_meas" : 1.549788122078639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 690,
+		"ts_meas" : 1.54978825318193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1194,
+		"ts_meas" : 1.549788423577391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 105,
+		"ts_meas" : 1.54978855467612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 609,
+		"ts_meas" : 1.549788725079372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 718,
+		"ts_meas" : 1.54978885597485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326287,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 22,
+		"ts_meas" : 1.549789026381394E9,
+		"ts_packet" : 1.549789024281394E9,
+		"varname" : "kga2",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 133,
+		"ts_meas" : 1.549789157476847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kga2",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klp",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 241,
+		"ts_meas" : 1.549785688275704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 589,
+		"ts_meas" : 1.549785843078965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 856,
+		"ts_meas" : 1.549785989782249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325663,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 6,
+		"ts_meas" : 1.549786144780957E9,
+		"ts_packet" : 1.549786144280957E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 262,
+		"ts_meas" : 1.549786290376433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 607,
+		"ts_meas" : 1.549786444879708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 874,
+		"ts_meas" : 1.549786591575171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 22,
+		"ts_meas" : 1.549786746381715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 291,
+		"ts_meas" : 1.549786893277162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 640,
+		"ts_meas" : 1.549787048180448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 907,
+		"ts_meas" : 1.549787194875906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 57,
+		"ts_meas" : 1.549787349882459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 322,
+		"ts_meas" : 1.549787496377915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 661,
+		"ts_meas" : 1.549787650281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 925,
+		"ts_meas" : 1.549787796676645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 75,
+		"ts_meas" : 1.549787951675366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 342,
+		"ts_meas" : 1.549788098378639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 690,
+		"ts_meas" : 1.54978825318193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 958,
+		"ts_meas" : 1.549788399977391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 108,
+		"ts_meas" : 1.54978855497612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 375,
+		"ts_meas" : 1.549788701679372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 725,
+		"ts_meas" : 1.54978885667485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 994,
+		"ts_meas" : 1.549789003578139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "klp",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 142,
+		"ts_meas" : 1.549789158376847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "klp",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klp_b",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr1_wz",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr1_wz_b",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 227,
+		"ts_meas" : 1.549785686875704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 580,
+		"ts_meas" : 1.549785842178965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 840,
+		"ts_meas" : 1.549785988182249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1192,
+		"ts_meas" : 1.549786143377716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 250,
+		"ts_meas" : 1.549786289176433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 605,
+		"ts_meas" : 1.549786444679708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 863,
+		"ts_meas" : 1.549786590475171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 18,
+		"ts_meas" : 1.549786745981715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 282,
+		"ts_meas" : 1.549786892377162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 631,
+		"ts_meas" : 1.549787047280448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 891,
+		"ts_meas" : 1.549787193275906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 45,
+		"ts_meas" : 1.549787348682459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 306,
+		"ts_meas" : 1.549787494777915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 658,
+		"ts_meas" : 1.549787649981173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 918,
+		"ts_meas" : 1.549787795976645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 73,
+		"ts_meas" : 1.549787951475366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 331,
+		"ts_meas" : 1.549788097278639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 688,
+		"ts_meas" : 1.54978825298193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 948,
+		"ts_meas" : 1.549788398977391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 101,
+		"ts_meas" : 1.54978855427612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 361,
+		"ts_meas" : 1.549788700279372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 716,
+		"ts_meas" : 1.54978885577485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 976,
+		"ts_meas" : 1.549789001778139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 131,
+		"ts_meas" : 1.549789157276847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "klr1_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr1_xy_b",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr2_wz",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr2_wz_b",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 229,
+		"ts_meas" : 1.549785687075704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 582,
+		"ts_meas" : 1.549785842378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 842,
+		"ts_meas" : 1.549785988382249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1194,
+		"ts_meas" : 1.549786143577716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 253,
+		"ts_meas" : 1.549786289476433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 607,
+		"ts_meas" : 1.549786444879708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 867,
+		"ts_meas" : 1.549786590875171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 20,
+		"ts_meas" : 1.549786746181715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 280,
+		"ts_meas" : 1.549786892177162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 633,
+		"ts_meas" : 1.549787047480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 893,
+		"ts_meas" : 1.549787193475906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 48,
+		"ts_meas" : 1.549787348982459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 310,
+		"ts_meas" : 1.549787495177915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 661,
+		"ts_meas" : 1.549787650281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 921,
+		"ts_meas" : 1.549787796276645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 75,
+		"ts_meas" : 1.549787951675366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 334,
+		"ts_meas" : 1.549788097578639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 690,
+		"ts_meas" : 1.54978825318193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 949,
+		"ts_meas" : 1.549788399077391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 103,
+		"ts_meas" : 1.54978855447612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 363,
+		"ts_meas" : 1.549788700479372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 718,
+		"ts_meas" : 1.54978885597485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 978,
+		"ts_meas" : 1.549789001978139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 133,
+		"ts_meas" : 1.549789157476847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "klr2_xy",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "klr2_xy_b",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kob_w",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kob_x",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 405,
+		"ts_meas" : 1.549785704675704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 578,
+		"ts_meas" : 1.549785841978965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1016,
+		"ts_meas" : 1.549786005782249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1189,
+		"ts_meas" : 1.549786143077716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 429,
+		"ts_meas" : 1.549786307076433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 601,
+		"ts_meas" : 1.549786444279708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1041,
+		"ts_meas" : 1.549786608275171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 14,
+		"ts_meas" : 1.549786745581715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 456,
+		"ts_meas" : 1.549786909777162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 629,
+		"ts_meas" : 1.549787047080448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1069,
+		"ts_meas" : 1.549787211075906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 42,
+		"ts_meas" : 1.549787348382459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 482,
+		"ts_meas" : 1.549787512377915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 655,
+		"ts_meas" : 1.549787649681173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1095,
+		"ts_meas" : 1.549787813676645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 69,
+		"ts_meas" : 1.549787951075366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 510,
+		"ts_meas" : 1.549788115178639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 684,
+		"ts_meas" : 1.54978825258193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1124,
+		"ts_meas" : 1.549788416577391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 99,
+		"ts_meas" : 1.54978855407612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 538,
+		"ts_meas" : 1.549788717979372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 712,
+		"ts_meas" : 1.54978885537485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1154,
+		"ts_meas" : 1.549789019578139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "kob_x",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 127,
+		"ts_meas" : 1.549789156876847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kob_x",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kob_y",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 405,
+		"ts_meas" : 1.549785704675704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 578,
+		"ts_meas" : 1.549785841978965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1016,
+		"ts_meas" : 1.549786005782249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1189,
+		"ts_meas" : 1.549786143077716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 428,
+		"ts_meas" : 1.549786306976433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 603,
+		"ts_meas" : 1.549786444479708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1041,
+		"ts_meas" : 1.549786608275171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 16,
+		"ts_meas" : 1.549786745781715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 454,
+		"ts_meas" : 1.549786909577162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 629,
+		"ts_meas" : 1.549787047080448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1069,
+		"ts_meas" : 1.549787211075906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 44,
+		"ts_meas" : 1.549787348582459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 482,
+		"ts_meas" : 1.549787512377915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 657,
+		"ts_meas" : 1.549787649881173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1095,
+		"ts_meas" : 1.549787813676645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 70,
+		"ts_meas" : 1.549787951175366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 508,
+		"ts_meas" : 1.549788114978639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 685,
+		"ts_meas" : 1.54978825268193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1124,
+		"ts_meas" : 1.549788416577391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 100,
+		"ts_meas" : 1.54978855417612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 538,
+		"ts_meas" : 1.549788717979372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 714,
+		"ts_meas" : 1.54978885557485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1154,
+		"ts_meas" : 1.549789019578139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "kob_y",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 129,
+		"ts_meas" : 1.549789157076847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "kob_y",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kob_z",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kpa1",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kpa2",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "kx",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "m",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "ncb_wz",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "rga",
+		"prev_varval" : null,
+		"varval" : 1
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "rhs",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "rpa",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "rtw_a",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "t32",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 231,
+		"ts_meas" : 1.549785687275704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 483,
+		"ts_meas" : 1.549785712475704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 842,
+		"ts_meas" : 1.549785988382249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1094,
+		"ts_meas" : 1.549786013582249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 253,
+		"ts_meas" : 1.549786289476433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 505,
+		"ts_meas" : 1.549786314676433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 867,
+		"ts_meas" : 1.549786590875171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1119,
+		"ts_meas" : 1.549786616075171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 280,
+		"ts_meas" : 1.549786892177162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 532,
+		"ts_meas" : 1.549786917377162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 893,
+		"ts_meas" : 1.549787193475906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1147,
+		"ts_meas" : 1.549787218875906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 306,
+		"ts_meas" : 1.549787494777915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 560,
+		"ts_meas" : 1.549787520177915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 919,
+		"ts_meas" : 1.549787796076645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1173,
+		"ts_meas" : 1.549787821476645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 334,
+		"ts_meas" : 1.549788097578639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 586,
+		"ts_meas" : 1.549788122778639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 949,
+		"ts_meas" : 1.549788399077391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326158,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1,
+		"ts_meas" : 1.549788424280659E9,
+		"ts_packet" : 1.549788424280659E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 363,
+		"ts_meas" : 1.549788700479372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 616,
+		"ts_meas" : 1.549788725779372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 978,
+		"ts_meas" : 1.549789001978139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "t32",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326287,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 31,
+		"ts_meas" : 1.549789027281394E9,
+		"ts_packet" : 1.549789024281394E9,
+		"varname" : "t32",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "t600",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325562,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 231,
+		"ts_meas" : 1.549785687275704E9,
+		"ts_packet" : 1.549785664275704E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325588,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 582,
+		"ts_meas" : 1.549785842378965E9,
+		"ts_packet" : 1.549785784278965E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325611,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 842,
+		"ts_meas" : 1.549785988382249E9,
+		"ts_packet" : 1.549785904282249E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325638,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 1194,
+		"ts_meas" : 1.549786143577716E9,
+		"ts_packet" : 1.549786024277716E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325690,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 253,
+		"ts_meas" : 1.549786289476433E9,
+		"ts_packet" : 1.549786264276433E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325716,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 607,
+		"ts_meas" : 1.549786444879708E9,
+		"ts_packet" : 1.549786384279708E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325744,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 867,
+		"ts_meas" : 1.549786590875171E9,
+		"ts_packet" : 1.549786504275171E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325793,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 20,
+		"ts_meas" : 1.549786746181715E9,
+		"ts_packet" : 1.549786744281715E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325819,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 280,
+		"ts_meas" : 1.549786892177162E9,
+		"ts_packet" : 1.549786864277162E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325846,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 633,
+		"ts_meas" : 1.549787047480448E9,
+		"ts_packet" : 1.549786984280448E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325871,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 893,
+		"ts_meas" : 1.549787193475906E9,
+		"ts_packet" : 1.549787104275906E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325923,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 48,
+		"ts_meas" : 1.549787348982459E9,
+		"ts_packet" : 1.549787344282459E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325949,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 306,
+		"ts_meas" : 1.549787494777915E9,
+		"ts_packet" : 1.549787464277915E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1325975,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 661,
+		"ts_meas" : 1.549787650281173E9,
+		"ts_packet" : 1.549787584281173E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326002,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 919,
+		"ts_meas" : 1.549787796076645E9,
+		"ts_packet" : 1.549787704276645E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326056,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 75,
+		"ts_meas" : 1.549787951675366E9,
+		"ts_packet" : 1.549787944275366E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326079,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 334,
+		"ts_meas" : 1.549788097578639E9,
+		"ts_packet" : 1.549788064278639E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326105,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 690,
+		"ts_meas" : 1.54978825318193E9,
+		"ts_packet" : 1.54978818428193E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326131,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 949,
+		"ts_meas" : 1.549788399077391E9,
+		"ts_packet" : 1.549788304277391E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326183,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 103,
+		"ts_meas" : 1.54978855447612E9,
+		"ts_packet" : 1.54978854427612E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326212,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 363,
+		"ts_meas" : 1.549788700479372E9,
+		"ts_packet" : 1.549788664279372E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326238,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 718,
+		"ts_meas" : 1.54978885597485E9,
+		"ts_packet" : 1.54978878427485E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1326261,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 978,
+		"ts_meas" : 1.549789001978139E9,
+		"ts_packet" : 1.549788904278139E9,
+		"varname" : "t600",
+		"prev_varval" : 0,
+		"varval" : 1
+	},
+	{
+		"id" : 1326314,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 133,
+		"ts_meas" : 1.549789157476847E9,
+		"ts_packet" : 1.549789144276847E9,
+		"varname" : "t600",
+		"prev_varval" : 1,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "un_dhs",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "un_fx",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "un_hs",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "un_nhs",
+		"prev_varval" : null,
+		"varval" : 0
+	},
+	{
+		"id" : 1325534,
+		"idpn" : "L112_LXEDUC",
+		"nr" : 559,
+		"ts_meas" : 1.549785600080265E9,
+		"ts_packet" : 1.549785544280265E9,
+		"varname" : "v_a2",
+		"prev_varval" : null,
+		"varval" : 0
+	}
+]
