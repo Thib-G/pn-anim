@@ -33,6 +33,7 @@
         />
       </div>
       <p>{{ x }}</p>
+      <p>{{ scaleX.invert(x) }}</p>
       <table class="center">
         <tbody>
           <tr
