@@ -33,7 +33,8 @@
         />
       </div>
       <p>{{ x }}</p>
-      <p>{{ scaleX.invert(x) }}</p>
+      <p>{{ t }}</p>
+      <p><button @click="play">Play</button> <button @click="stop">Stop</button></p>
       <table class="center">
         <tbody>
           <tr
@@ -49,7 +50,8 @@
                 :width="width"
                 :mouse-x="x"
                 @mouse-x="mouseX"
-                @varval-change="varvalChange" />
+                v-model="activeVars[ch.key]"
+              />
             </td>
           </tr>
         </tbody>
@@ -74,6 +76,10 @@ export default {
       x: 0,
       width: 800,
       activeVars: undefined,
+      starttime: Date.now(),
+      t0: undefined,
+      stopped: true,
+      animRef: undefined,
     };
   },
   created() {
@@ -105,6 +111,14 @@ export default {
         .domain([this.tsFrom, this.tsTo])
         .range([0, this.width]);
     },
+    t: {
+      get() {
+        return this.scaleX.invert(this.x);
+      },
+      set(newVal) {
+        this.x = this.scaleX(newVal);
+      },
+    },
   },
   methods: {
     getEvents() {
@@ -115,8 +129,24 @@ export default {
     mouseX(event) {
       this.x = event;
     },
-    varvalChange(varname, varval) {
-      this.activeVars = Object.assign({}, this.activeVars, { [varname]: varval });
+    play() {
+      this.stopped = false;
+      this.starttime = Date.now();
+      this.animRef = this.animate();
+    },
+    stop() {
+      this.stopped = true;
+      cancelAnimationFrame(this.animRef);
+    },
+    animate() {
+      if (this.t > this.tsTo) {
+        this.stop();
+      }
+      if (!this.stopped) {
+        this.t = new Date(this.t.getTime() + Date.now() - this.starttime);
+      }
+      this.starttime = Date.now();
+      return requestAnimationFrame(this.animate);
     },
   },
   components: {

@@ -50,6 +50,10 @@ export default {
       type: Number,
       required: true,
     },
+    value: {
+      type: Number,
+      required: true,
+    },
   },
   data() {
     return {
@@ -69,7 +73,7 @@ export default {
   },
   watch: {
     activeRectangle(newVal) {
-      this.$emit('varval-change', newVal.varname, newVal.varval);
+      this.$emit('input', newVal.varval);
     },
   },
   computed: {
