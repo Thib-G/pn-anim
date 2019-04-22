@@ -32,6 +32,13 @@
           :klr2="activeVars.klr2_xy"
         />
       </div>
+      <div>
+        <LevelCrossingRingingComponent
+          v-if="activeVars"
+          :cl="activeVars.cl"
+          :kfb="activeVars.kfb_x * activeVars.kfb_y"
+        />
+      </div>
       <p>{{ x }}</p>
       <p>{{ t }}</p>
       <p><button @click="play">Play</button> <button @click="stop">Stop</button></p>
@@ -67,6 +74,7 @@ import PnService from '@/services/pn-service';
 import ChartDigitalComponent from '@/components/ChartDigitalComponent.vue';
 import LevelCrossingBarrier from '@/components/LevelCrossingBarrier.vue';
 import LevelCrossingSignal from '@/components/LevelCrossingSignal.vue';
+import LevelCrossingRingingComponent from '@/components/LevelCrossingRingingComponent.vue';
 
 export default {
   data() {
@@ -153,6 +161,7 @@ export default {
     ChartDigitalComponent,
     LevelCrossingBarrier,
     LevelCrossingSignal,
+    LevelCrossingRingingComponent,
   },
 };
 </script>

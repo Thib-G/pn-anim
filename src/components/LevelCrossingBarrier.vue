@@ -57,6 +57,7 @@ export default {
       maxVal: 100,
       nrRects: 6,
       r: 25,
+      duration: 1.0,
       tweenVal: { x: 0 },
     };
   },
@@ -66,7 +67,7 @@ export default {
   watch: {
     val(newVal, oldVal) {
       this.tweenVal = { x: oldVal };
-      TweenLite.to(this.tweenVal, 1.5, { x: newVal });
+      TweenLite.to(this.tweenVal, this.duration, { x: newVal });
     },
   },
   computed: {
