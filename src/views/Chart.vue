@@ -41,7 +41,7 @@
         />
       </div>
       <!--<p>{{ x }}</p>-->
-      <p>{{ t }}</p>
+      <p>{{ t.toLocaleString() }}</p>
       <p><button @click="play">Play</button> <button @click="stop">Stop</button></p>
       <table class="center">
         <tbody>
