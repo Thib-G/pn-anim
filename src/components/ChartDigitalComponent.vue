@@ -46,6 +46,10 @@ export default {
       type: Array,
       required: true,
     },
+    clicked: {
+      type: Boolean,
+      default: false,
+    },
     mouseX: {
       type: Number,
       required: true,
@@ -66,9 +70,19 @@ export default {
   },
   mounted() {
     d3.select(this.$refs.mouseRect)
+      .on('click', (d, i, nodes) => {
+        const newClicked = this.clicked;
+        this.$emit('clicked', !newClicked);
+        if (newClicked) {
+          const x = d3.mouse(nodes[i])[0];
+          this.$emit('mouse-x', x);
+        }
+      })
       .on('mousemove', (d, i, nodes) => {
-        const x = d3.mouse(nodes[i])[0];
-        this.$emit('mouse-x', x);
+        if (!this.clicked) {
+          const x = d3.mouse(nodes[i])[0];
+          this.$emit('mouse-x', x);
+        }
       });
   },
   watch: {

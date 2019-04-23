@@ -37,6 +37,7 @@
           v-if="activeVars"
           :cl="activeVars.cl"
           :kfb="activeVars.kfb_x * activeVars.kfb_y"
+          :t32="activeVars.t32"
         />
       </div>
       <!--<p>{{ x }}</p>-->
@@ -56,6 +57,8 @@
                 :scale-x="scaleX"
                 :width="width"
                 :mouse-x="x"
+                :clicked="clicked"
+                @clicked="clicked = $event"
                 @mouse-x="mouseX"
                 v-model="activeVars[ch.key]"
               />
@@ -88,6 +91,7 @@ export default {
       t0: undefined,
       stopped: true,
       animRef: undefined,
+      clicked: false,
     };
   },
   created() {
@@ -134,8 +138,8 @@ export default {
         this.events = data;
       });
     },
-    mouseX(event) {
-      this.x = event;
+    mouseX(payload) {
+      this.x = payload;
     },
     play() {
       this.stopped = false;

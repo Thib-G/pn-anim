@@ -1,42 +1,40 @@
 <template>
-  <div>
-    <svg
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
-      width="230"
-      height="165"
-      viewBox="0 0 1150 825">
-      <g class="frame">
-        <path
-          d="M 250 50
-             A 200 200 0 0 0 50 250
-             A 200 200 0 0 0 108.66602 391.33398
-             L 108.57812 391.42188
-             L 433.57812 716.42188
-             L 433.66602 716.33398
-             A 200 200 0 0 0 575 775
-             A 200 200 0 0 0 716.33398 716.33398
-             L 716.42188 716.42188
-             L 1041.4219 391.42188
-             L 1041.334 391.33398
-             A 200 200 0 0 0 1100 250
-             A 200 200 0 0 0 900 50
-             L 250 50 z"
-          fill="black"
-          stroke-width="25" stroke="grey" />
+  <svg
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    width="230"
+    height="165"
+    viewBox="0 0 1150 825">
+    <g class="frame">
+      <path
+        d="M 250 50
+            A 200 200 0 0 0 50 250
+            A 200 200 0 0 0 108.66602 391.33398
+            L 108.57812 391.42188
+            L 433.57812 716.42188
+            L 433.66602 716.33398
+            A 200 200 0 0 0 575 775
+            A 200 200 0 0 0 716.33398 716.33398
+            L 716.42188 716.42188
+            L 1041.4219 391.42188
+            L 1041.334 391.33398
+            A 200 200 0 0 0 1100 250
+            A 200 200 0 0 0 900 50
+            L 250 50 z"
+        fill="black"
+        stroke-width="25" stroke="grey" />
+    </g>
+    <g class="lamps" transform="translate(50,50)">
+      <g transform="translate(200,200)">
+        <circle class="lr lr1" cx="0" cy="0" r="130" :style="{ opacity: opacity(lr1) }" />
+        <circle class="lr lr2" cx="650" cy="0" r="130" :style="{ opacity: opacity(lr2) }" />
       </g>
-      <g class="lamps" transform="translate(50,50)">
-        <g transform="translate(200,200)">
-          <circle class="lr lr1" cx="0" cy="0" r="130" :style="{ opacity: opacity(lr1) }" />
-          <circle class="lr lr2" cx="650" cy="0" r="130" :style="{ opacity: opacity(lr2) }" />
-        </g>
-        <g transform="translate(525,525)">
-          <circle class="lp" cx="0" cy="0" r="130" :style="{ opacity: opacity(lp) }" />
-        </g>
+      <g transform="translate(525,525)">
+        <circle class="lp" cx="0" cy="0" r="130" :style="{ opacity: opacity(lp) }" />
       </g>
-    </svg>
-  </div>
+    </g>
+  </svg>
 </template>
 
 <script>
