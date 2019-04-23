@@ -39,7 +39,7 @@
           :kfb="activeVars.kfb_x * activeVars.kfb_y"
         />
       </div>
-      <p>{{ x }}</p>
+      <!--<p>{{ x }}</p>-->
       <p>{{ t }}</p>
       <p><button @click="play">Play</button> <button @click="stop">Stop</button></p>
       <table class="center">
