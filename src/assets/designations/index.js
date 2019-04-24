@@ -1059,8 +1059,10 @@ export default function (vardb) {
     }
   ];
   const item = designations.find(d => d.vardb === vardb);
-  if (item) {
-    return item.Fonction;
+
+  if (!item || item.Fonction === '') {
+    return 'inconnu';
   }
-  return 'inconnu';
+  
+  return item.Fonction;
 };
