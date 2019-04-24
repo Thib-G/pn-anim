@@ -3,8 +3,8 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
     version="1.1"
-    width="230"
-    height="165"
+    width="138"
+    height="99"
     viewBox="0 0 1150 825">
     <g class="frame">
       <path

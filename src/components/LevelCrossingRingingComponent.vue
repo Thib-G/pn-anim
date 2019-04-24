@@ -1,5 +1,5 @@
 <template>
-    <svg width="75" height="75">
+    <svg width="50" height="50" viewBox="0 0 75 75">
       <g id="g1">
         <polygon
           ref="polygon1"

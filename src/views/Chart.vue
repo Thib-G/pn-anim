@@ -4,48 +4,106 @@
       <h1>Animation passage à niveau</h1>
       <p>Basée sur les données du SGM.</p>
       <b-card>
-        <b-card class="mb-2">
-          <div>
-            <LevelCrossingBarrier
-              v-if="activeVars"
-              :cb="activeVars.cb_xy"
-              :kob="activeVars.kob_x"
-              :kfb="activeVars.kfb_x"
-            />
-            <LevelCrossingBarrier
-              v-if="activeVars"
-              :cb="activeVars.cb_xy"
-              :kob="activeVars.kob_y"
-              :kfb="activeVars.kfb_y"
-              :reverse="-1"
-            />
-          </div>
-          <div>
-            <LevelCrossingSignal
-              v-if="activeVars"
-              :cl="activeVars.cl"
-              :klp="activeVars.klp"
-              :klr1="activeVars.klr1_xy"
-              :klr2="activeVars.klr2_xy"
-            />
-            <LevelCrossingSignal
-              v-if="activeVars"
-              :cl="activeVars.cl"
-              :klp="activeVars.klp"
-              :klr1="activeVars.klr1_xy"
-              :klr2="activeVars.klr2_xy"
-            />
-          </div>
-          <div>
-            <LevelCrossingRingingComponent
-              v-if="activeVars"
-              :cl="activeVars.cl"
-              :kfb="activeVars.kfb_x * activeVars.kfb_y"
-              :kga2="activeVars.kga2"
-            />
-          </div>
+        <b-card class="mb-2" v-if="activeVars">
+          <h3>Barrières</h3>
+          <b-row class="mb-3">
+            <b-col class="text-center">
+              <LevelCrossingBarrier
+                v-if="activeVars"
+                :cb="activeVars.cb_xy"
+                :kob="activeVars.kob_x"
+                :kfb="activeVars.kfb_x"
+              />
+              <b-card class="text-center">
+                <span
+                  v-for="v in ['cb_xy', 'kob_x', 'kfb_x']"
+                  :key="v"
+                  class="mr-3" :title="getName(v)"
+                >{{ v }}
+                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+              </b-card>
+            </b-col>
+            <b-col class="text-center">
+              <LevelCrossingBarrier
+                v-if="activeVars"
+                :cb="activeVars.cb_xy"
+                :kob="activeVars.kob_y"
+                :kfb="activeVars.kfb_y"
+                :reverse="-1"
+              />
+              <b-card class="text-center">
+                <span
+                  v-for="v in ['cb_xy', 'kob_y', 'kfb_y']"
+                  :key="v"
+                  class="mr-3" :title="getName(v)"
+                >{{ v }}
+                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+              </b-card>
+            </b-col>
+          </b-row>
+          <hr />
+          <h3>Feux</h3>
+          <b-row>
+            <b-col>
+              <LevelCrossingSignal
+                v-if="activeVars"
+                :cl="activeVars.cl"
+                :klp="activeVars.klp"
+                :klr1="activeVars.klr1_xy"
+                :klr2="activeVars.klr2_xy"
+              />
+              <b-card class="text-center">
+                <span
+                  v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
+                  :key="v"
+                  class="mr-3" :title="getName(v)"
+                >{{ v }}
+                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+              </b-card>
+            </b-col>
+            <b-col>
+              <LevelCrossingSignal
+                v-if="activeVars"
+                :cl="activeVars.cl"
+                :klp="activeVars.klp"
+                :klr1="activeVars.klr1_xy"
+                :klr2="activeVars.klr2_xy"
+              />
+              <b-card class="text-center">
+                <span
+                  v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
+                  :key="v"
+                  class="mr-3" :title="getName(v)"
+                >{{ v }}
+                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+              </b-card>
+            </b-col>
+          </b-row>
+          <hr />
+          <h3>Sonnerie</h3>
+          <b-row>
+            <b-col>
+              <LevelCrossingRingingComponent
+                v-if="activeVars"
+                :cl="activeVars.cl"
+                :kfb="activeVars.kfb_x * activeVars.kfb_y"
+                :kga2="activeVars.kga2"
+              />
+              <b-card class="text-center">
+                <span class="mr-3" :title="getName('cl')">cl
+                  <b-badge>{{ activeVars.cl }}</b-badge></span>
+                <span class="mr-3">
+                  <span :title="getName('kfb_x')">kfb_x</span> *
+                  <span :title="getName('kfb_y')">kfb_y</span>
+                   &nbsp;<b-badge>{{ activeVars.kfb_x * activeVars.kfb_y }}</b-badge></span>
+                <span class="mr-3" :title="getName('kga2')">kga2
+                  <b-badge>{{ activeVars.kga2 }}</b-badge></span>
+              </b-card>
+            </b-col>
+          </b-row>
           <!--<p>{{ x }}</p>-->
-          <h5>
+          <hr />
+          <h5 class="mt-2">
             <b-badge variant="info" class="mr-1">{{ t.toLocaleString() }}</b-badge>
           </h5>
           <p>
@@ -92,6 +150,8 @@ import LevelCrossingBarrier from '@/components/LevelCrossingBarrier.vue';
 import LevelCrossingSignal from '@/components/LevelCrossingSignal.vue';
 import LevelCrossingRingingComponent from '@/components/LevelCrossingRingingComponent.vue';
 
+import getName from '@/assets/designations';
+
 export default {
   data() {
     return {
@@ -105,6 +165,7 @@ export default {
       stopped: true,
       animRef: undefined,
       clicked: false,
+      getName,
     };
   },
   created() {
