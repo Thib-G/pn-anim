@@ -2,7 +2,8 @@
   <b-row>
     <b-col>
       <h1>Animation passage à niveau</h1>
-      <p>Basée sur les données du SGM.</p>
+      <p>Basée sur les données du SGM.<br />
+        Cliquez sur &laquo;&nbsp;Play&nbsp;&raquo; ci-dessous pour rejouer les événements.</p>
       <b-card>
         <b-card class="mb-2" v-if="activeVars">
           <h3>Barrières</h3>
