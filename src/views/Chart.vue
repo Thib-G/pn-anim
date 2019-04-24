@@ -6,7 +6,7 @@
         Cliquez sur &laquo;&nbsp;Play&nbsp;&raquo; ci-dessous pour rejouer les événements.</p>
       <b-card>
         <b-card class="mb-2" v-if="activeVars">
-          <h3>Barrières</h3>
+          <h4>Barrières</h4>
           <b-row class="mb-3">
             <b-col class="text-center">
               <LevelCrossingBarrier
@@ -43,7 +43,7 @@
             </b-col>
           </b-row>
           <hr />
-          <h3>Feux</h3>
+          <h4>Feux</h4>
           <b-row>
             <b-col>
               <LevelCrossingSignal
@@ -81,7 +81,7 @@
             </b-col>
           </b-row>
           <hr />
-          <h3>Sonnerie</h3>
+          <h4>Sonnerie</h4>
           <b-row>
             <b-col>
               <LevelCrossingRingingComponent

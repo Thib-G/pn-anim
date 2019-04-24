@@ -15,7 +15,7 @@
         <h3>Auteur</h3>
           <p>Thibaut Goelff <small class="text-muted">thibaut [at] goelff.be</small></p>
         <h3>Remerciements</h3>
-          <p>Tous les collègues qui m’ont aidé.</p>
+          <p>Tous les collègues qui m’ont aidé: Freddy, Fredo, JC, Olivier, Yves, Franz.</p>
       </b-card>
     </b-col>
   </b-row>
