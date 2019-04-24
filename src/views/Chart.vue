@@ -118,7 +118,7 @@
                 v-for="ch in ev"
                 :key="ch.key">
                 <td>
-                {{ ch.key }}
+                  <span :title="getName(ch.key)">{{ ch.key }}</span>
                 </td>
                 <td>
                   <ChartDigitalComponent
