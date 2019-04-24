@@ -1,7 +1,17 @@
 <template>
   <svg :width="width" :height="height">
     <g :transform="mirror">
-      <g :transform="`translate(${barrierHeight},${height - 6 * barrierHeight})`">
+      <g :transform="`translate(${barrierHeight},${height - barrierAnchor - (2 * barrierHeight)})`">
+        <g>
+          <rect
+            class="bati"
+            :x="barrierAnchor - (2 * barrierHeight)"
+            y="0"
+            :width="3 * barrierHeight"
+            :height="barrierAnchor + (1.5 * barrierHeight)"
+            v-once
+          />
+        </g>
         <g :transform="transform">
           <rect
             v-for="i in nrRects"
@@ -100,5 +110,8 @@ export default {
     stroke-width: 8;
     stroke: red;
     fill: white;
+  }
+  .bati {
+    fill: rgb(72, 72, 72);
   }
 </style>
