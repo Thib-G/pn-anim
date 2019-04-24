@@ -18,7 +18,7 @@
                 <span
                   v-for="v in ['cb_xy', 'kob_x', 'kfb_x']"
                   :key="v"
-                  class="mr-3" :title="getName(v)"
+                  class="mr-3" :title="names[v]"
                 >{{ v }}
                   <b-badge>{{ activeVars[v] }}</b-badge></span>
               </b-card>
@@ -35,7 +35,7 @@
                 <span
                   v-for="v in ['cb_xy', 'kob_y', 'kfb_y']"
                   :key="v"
-                  class="mr-3" :title="getName(v)"
+                  class="mr-3" :title="names[v]"
                 >{{ v }}
                   <b-badge>{{ activeVars[v] }}</b-badge></span>
               </b-card>
@@ -56,7 +56,7 @@
                 <span
                   v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
                   :key="v"
-                  class="mr-3" :title="getName(v)"
+                  class="mr-3" :title="names[v]"
                 >{{ v }}
                   <b-badge>{{ activeVars[v] }}</b-badge></span>
               </b-card>
@@ -73,7 +73,7 @@
                 <span
                   v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
                   :key="v"
-                  class="mr-3" :title="getName(v)"
+                  class="mr-3" :title="names[v]"
                 >{{ v }}
                   <b-badge>{{ activeVars[v] }}</b-badge></span>
               </b-card>
@@ -90,13 +90,13 @@
                 :kga2="activeVars.kga2"
               />
               <b-card class="text-center">
-                <span class="mr-3" :title="getName('cl')">cl
+                <span class="mr-3" :title="names['cl']">cl
                   <b-badge>{{ activeVars.cl }}</b-badge></span>
                 <span class="mr-3">
-                  <span :title="getName('kfb_x')">kfb_x</span> *
-                  <span :title="getName('kfb_y')">kfb_y</span>
+                  <span :title="names['kfb_x']">kfb_x</span> *
+                  <span :title="names['kfb_y']">kfb_y</span>
                    &nbsp;<b-badge>{{ activeVars.kfb_x * activeVars.kfb_y }}</b-badge></span>
-                <span class="mr-3" :title="getName('kga2')">kga2
+                <span class="mr-3" :title="names['kga2']">kga2
                   <b-badge>{{ activeVars.kga2 }}</b-badge></span>
               </b-card>
             </b-col>
@@ -118,7 +118,7 @@
                 v-for="ch in ev"
                 :key="ch.key">
                 <td>
-                  <span :title="getName(ch.key)">{{ ch.key }}</span>
+                  <span :title="names[ch.key]" v-once>{{ ch.key }}</span>
                 </td>
                 <td>
                   <ChartDigitalComponent
@@ -204,6 +204,13 @@ export default {
       set(newVal) {
         this.x = this.scaleX(newVal);
       },
+    },
+    names() {
+      const vars = {};
+      this.ev.forEach((x) => {
+        vars[x.key] = this.getName(x.key);
+      });
+      return vars;
     },
   },
   methods: {
