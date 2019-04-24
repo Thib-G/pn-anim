@@ -1,73 +1,86 @@
 <template>
-  <div>
-    <div>
-      <div>
-        <LevelCrossingBarrier
-          v-if="activeVars"
-          :cb="activeVars.cb_xy"
-          :kob="activeVars.kob_x"
-          :kfb="activeVars.kfb_x"
-        />
-        <LevelCrossingBarrier
-          v-if="activeVars"
-          :cb="activeVars.cb_xy"
-          :kob="activeVars.kob_y"
-          :kfb="activeVars.kfb_y"
-          :reverse="-1"
-        />
-      </div>
-      <div>
-        <LevelCrossingSignal
-          v-if="activeVars"
-          :cl="activeVars.cl"
-          :klp="activeVars.klp"
-          :klr1="activeVars.klr1_xy"
-          :klr2="activeVars.klr2_xy"
-        />
-        <LevelCrossingSignal
-          v-if="activeVars"
-          :cl="activeVars.cl"
-          :klp="activeVars.klp"
-          :klr1="activeVars.klr1_xy"
-          :klr2="activeVars.klr2_xy"
-        />
-      </div>
-      <div>
-        <LevelCrossingRingingComponent
-          v-if="activeVars"
-          :cl="activeVars.cl"
-          :kfb="activeVars.kfb_x * activeVars.kfb_y"
-          :t32="activeVars.t32"
-        />
-      </div>
-      <!--<p>{{ x }}</p>-->
-      <p>{{ t.toLocaleString() }}</p>
-      <p><button @click="play">Play</button> <button @click="stop">Stop</button></p>
-      <table class="center">
-        <tbody>
-          <tr
-            v-for="ch in ev"
-            :key="ch.key">
-            <td>
-            {{ ch.key }}
-            </td>
-            <td>
-              <ChartDigitalComponent
-                :vals="ch.values"
-                :scale-x="scaleX"
-                :width="width"
-                :mouse-x="x"
-                :clicked="clicked"
-                @clicked="clicked = $event"
-                @mouse-x="mouseX"
-                v-model="activeVars[ch.key]"
-              />
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+  <b-row>
+    <b-col>
+      <h1>Animation passage à niveau</h1>
+      <p>Basée sur les données du SGM.</p>
+      <b-card>
+        <b-card class="mb-2">
+          <div>
+            <LevelCrossingBarrier
+              v-if="activeVars"
+              :cb="activeVars.cb_xy"
+              :kob="activeVars.kob_x"
+              :kfb="activeVars.kfb_x"
+            />
+            <LevelCrossingBarrier
+              v-if="activeVars"
+              :cb="activeVars.cb_xy"
+              :kob="activeVars.kob_y"
+              :kfb="activeVars.kfb_y"
+              :reverse="-1"
+            />
+          </div>
+          <div>
+            <LevelCrossingSignal
+              v-if="activeVars"
+              :cl="activeVars.cl"
+              :klp="activeVars.klp"
+              :klr1="activeVars.klr1_xy"
+              :klr2="activeVars.klr2_xy"
+            />
+            <LevelCrossingSignal
+              v-if="activeVars"
+              :cl="activeVars.cl"
+              :klp="activeVars.klp"
+              :klr1="activeVars.klr1_xy"
+              :klr2="activeVars.klr2_xy"
+            />
+          </div>
+          <div>
+            <LevelCrossingRingingComponent
+              v-if="activeVars"
+              :cl="activeVars.cl"
+              :kfb="activeVars.kfb_x * activeVars.kfb_y"
+              :kga2="activeVars.kga2"
+            />
+          </div>
+          <!--<p>{{ x }}</p>-->
+          <h5>
+            <b-badge variant="info" class="mr-1">{{ t.toLocaleString() }}</b-badge>
+          </h5>
+          <p>
+            <b-button @click="play" v-if="stopped">Play</b-button>
+            <b-button @click="stop" v-if="!stopped">Stop</b-button>
+          </p>
+        </b-card>
+        <b-card header="Variables">
+          <table class="center">
+            <tbody>
+              <tr
+                v-for="ch in ev"
+                :key="ch.key">
+                <td>
+                {{ ch.key }}
+                </td>
+                <td>
+                  <ChartDigitalComponent
+                    :vals="ch.values"
+                    :scale-x="scaleX"
+                    :width="width"
+                    :mouse-x="x"
+                    :clicked="clicked"
+                    @clicked="clicked = $event"
+                    @mouse-x="mouseX"
+                    v-model="activeVars[ch.key]"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </b-card>
+      </b-card>
+    </b-col>
+  </b-row>
 </template>
 
 <script>

@@ -73,7 +73,7 @@ export default {
       type: Number,
       required: true,
     },
-    t32: {
+    kga2: {
       type: Number,
       required: true,
     },
@@ -98,7 +98,7 @@ export default {
     kfb() {
       this.updateAudio();
     },
-    t32() {
+    kga2() {
       this.updateAudio();
     },
     mute() {
@@ -107,7 +107,7 @@ export default {
   },
   methods: {
     updateAudio() {
-      if (this.cl === 0 && this.kfb === 0 && this.t32 === 1) {
+      if (this.cl === 0 && this.kfb === 0 && this.kga2 === 0) {
         this.audio.play();
         this.playing = true;
       } else {

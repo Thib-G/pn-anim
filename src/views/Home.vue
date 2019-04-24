@@ -1,54 +1,61 @@
 <template>
-  <div>
-    <div class="home">
-      <div>
-        <LevelCrossingBarrier v-bind="valsBarrier" />
-        <LevelCrossingBarrier v-bind="valsBarrier" :reverse="-1" />
-      </div>
-      <div>
-        Commande barrière CB:
-        <input type="radio" :value="1" v-model="valsBarrier.cb">1
-        <input type="radio" :value="0" v-model="valsBarrier.cb">0
-      </div>
-      <div>
-        Contrôle ouvertude barrière KOB:
-        <input type="radio" :value="1" v-model="valsBarrier.kob">1
-        <input type="radio" :value="0" v-model="valsBarrier.kob">0
-      </div>
-      <div>
-        Contrôle fermeture barrière KFB:
-        <input type="radio" :value="1" v-model="valsBarrier.kfb">1
-        <input type="radio" :value="0" v-model="valsBarrier.kfb">0
-      </div>
-      <hr />
-      <div>
-        <LevelCrossingSignal v-bind="valsSignal" />
-      </div>
-      <div>
-        Commande lampes CL:
-        <input type="radio" :value="1" v-model="valsSignal.cl">1
-        <input type="radio" :value="0" v-model="valsSignal.cl">0
-      </div>
-      <div>
-        Contrôle lampe blanche KLP:
-        <input type="radio" :value="1" v-model="valsSignal.klp">1
-        <input type="radio" :value="0" v-model="valsSignal.klp">0
-      </div>
-      <div>
-        Contrôle lampe rouge 1 KLR1:
-        <input type="radio" :value="1" v-model="valsSignal.klr1">1
-        <input type="radio" :value="0" v-model="valsSignal.klr1">0
-      </div>
-      <div>
-        Contrôle lampe rouge 2 KLR2:
-        <input type="radio" :value="1" v-model="valsSignal.klr2">1
-        <input type="radio" :value="0" v-model="valsSignal.klr2">0
-      </div>
-      <div>
-        <h2>{{ countDown.v.toFixed(1) }}</h2>
-      </div>
-    </div>
-  </div>
+  <b-row>
+    <b-col>
+      <h1>Test éléments d’animation de passage à niveau</h1>
+      <p>Pour une animation en lien avec les données récoltées par le SGM
+        <router-link to="chart">cliquez ici</router-link>.</p>
+      <b-card>
+        <div class="home">
+          <div>
+            <LevelCrossingBarrier v-bind="valsBarrier" />
+            <LevelCrossingBarrier v-bind="valsBarrier" :reverse="-1" />
+          </div>
+          <div>
+            Commande barrière CB:
+            <input type="radio" :value="1" v-model="valsBarrier.cb">1
+            <input type="radio" :value="0" v-model="valsBarrier.cb">0
+          </div>
+          <div>
+            Contrôle ouvertude barrière KOB:
+            <input type="radio" :value="1" v-model="valsBarrier.kob">1
+            <input type="radio" :value="0" v-model="valsBarrier.kob">0
+          </div>
+          <div>
+            Contrôle fermeture barrière KFB:
+            <input type="radio" :value="1" v-model="valsBarrier.kfb">1
+            <input type="radio" :value="0" v-model="valsBarrier.kfb">0
+          </div>
+          <hr />
+          <div>
+            <LevelCrossingSignal v-bind="valsSignal" />
+          </div>
+          <div>
+            Commande lampes CL:
+            <input type="radio" :value="1" v-model="valsSignal.cl">1
+            <input type="radio" :value="0" v-model="valsSignal.cl">0
+          </div>
+          <div>
+            Contrôle lampe blanche KLP:
+            <input type="radio" :value="1" v-model="valsSignal.klp">1
+            <input type="radio" :value="0" v-model="valsSignal.klp">0
+          </div>
+          <div>
+            Contrôle lampe rouge 1 KLR1:
+            <input type="radio" :value="1" v-model="valsSignal.klr1">1
+            <input type="radio" :value="0" v-model="valsSignal.klr1">0
+          </div>
+          <div>
+            Contrôle lampe rouge 2 KLR2:
+            <input type="radio" :value="1" v-model="valsSignal.klr2">1
+            <input type="radio" :value="0" v-model="valsSignal.klr2">0
+          </div>
+          <div>
+            <h2>{{ countDown.v.toFixed(1) }}</h2>
+          </div>
+        </div>
+      </b-card>
+    </b-col>
+  </b-row>
 </template>
 
 <script>
