@@ -19,6 +19,9 @@
       <text x="3" y="20">
         {{ activeRectangle.varval }}
       </text>
+      <text v-if="activeRectangle.tsEnd" class="duration" x="-1" y="20">
+        {{ ((activeRectangle.tsEnd - activeRectangle.tsStart) / 1000).toFixed(1) }} s.
+      </text>
     </g>
     <rect
       ref="mouseRect"
@@ -101,6 +104,8 @@ export default {
             height: this.height,
             x: this.scaleX(v.ts_meas),
             y: 0,
+            tsStart: v.ts_meas,
+            tsEnd: this.vals[i + 1].ts_meas,
             varname: v.varname,
             varval: v.varval,
             class: this.classes[v.varval],
@@ -132,10 +137,14 @@ export default {
     fill: lightgrey;
   }
   .active {
-    opacity: 0.7;
+    opacity: 0.6;
   }
   line.position {
     stroke-width: 1px;
     stroke: black;
+  }
+  .duration {
+    text-anchor: end;
+    font-size: smaller;
   }
 </style>
