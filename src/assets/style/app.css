@@ -23,6 +23,23 @@ html, body {
   font-weight: 700;
 }
 
+/* vue-datepick */
+.vdatetime-popup__header {
+  background-color: rgb(0, 93, 164) !important;
+}
+
+.vdatetime-calendar__month__day--selected > span > span, .vdatetime-calendar__month__day--selected:hover > span > span {
+  background-color: rgb(0, 93, 164) !important;
+}
+
+.vdatetime-popup__actions__button {
+  color: rgb(0, 93, 164) !important;
+}
+
+.vdatetime-time-picker__item--selected {
+  color: rgb(0, 93, 164) !important;
+}
+
 /* nunito-regular - latin */
 @font-face {
   font-family: 'Nunito';

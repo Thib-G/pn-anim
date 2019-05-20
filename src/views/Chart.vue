@@ -4,13 +4,32 @@
       <h1>Animation passage à niveau</h1>
       <p>Basée sur les données du SGM.<br />
         Cliquez sur &laquo;&nbsp;Play&nbsp;&raquo; ci-dessous pour rejouer les événements.</p>
-      <b-card>
+      <b-row class="mb-2">
+        <b-col class="d-flex justify-content-center">
+          <b-form inline>
+            <b-form-select v-model="idpn" :options="crossingsOptions" class="mr-2" />
+            <datetime
+              v-model="dateTimeStr"
+              type="datetime"
+              input-class="form-control mr-2"
+            />
+            <b-button variant="primary" @click="getEvents">Get events</b-button>
+          </b-form>
+        </b-col>
+      </b-row>
+      <p v-if="loading">
+        Loading...
+      </p>
+      <b-card v-else>
         <b-card class="mb-2" v-if="activeVars">
           <h4>Barrières</h4>
           <b-row class="mb-3">
             <b-col class="text-center">
               <LevelCrossingBarrier
-                v-if="activeVars"
+                v-if="activeVars
+                  && activeVars.cb_xy !== undefined
+                  && activeVars.kob_x !== undefined
+                  && activeVars.kfb_x !== undefined"
                 :cb="activeVars.cb_xy"
                 :kob="activeVars.kob_x"
                 :kfb="activeVars.kfb_x"
@@ -26,7 +45,10 @@
             </b-col>
             <b-col class="text-center">
               <LevelCrossingBarrier
-                v-if="activeVars"
+                v-if="activeVars
+                  && activeVars.cb_xy !== undefined
+                  && activeVars.kob_y !== undefined
+                  && activeVars.kfb_y !== undefined"
                 :cb="activeVars.cb_xy"
                 :kob="activeVars.kob_y"
                 :kfb="activeVars.kfb_y"
@@ -47,7 +69,10 @@
           <b-row>
             <b-col>
               <LevelCrossingSignal
-                v-if="activeVars"
+                v-if="activeVars
+                  && activeVars.cl !== undefined
+                  && activeVars.klr1_xy !== undefined
+                  && activeVars.klr2_xy !== undefined"
                 :cl="activeVars.cl"
                 :klp="activeVars.klp"
                 :klr1="activeVars.klr1_xy"
@@ -64,7 +89,10 @@
             </b-col>
             <b-col>
               <LevelCrossingSignal
-                v-if="activeVars"
+                v-if="activeVars
+                  && activeVars.cl !== undefined
+                  && activeVars.klr1_xy !== undefined
+                  && activeVars.klr2_xy !== undefined"
                 :cl="activeVars.cl"
                 :klp="activeVars.klp"
                 :klr1="activeVars.klr1_xy"
@@ -85,7 +113,11 @@
           <b-row>
             <b-col>
               <LevelCrossingRingingComponent
-                v-if="activeVars"
+                v-if="activeVars
+                  && activeVars.cl !== undefined
+                  && activeVars.kfb_x !== undefined
+                  && activeVars.kfb_y !== undefined
+                  && activeVars.kga2 !== undefined"
                 :cl="activeVars.cl"
                 :kfb="activeVars.kfb_x * activeVars.kfb_y"
                 :kga2="activeVars.kga2"
@@ -148,6 +180,11 @@
 </template>
 
 <script>
+import 'vue-datetime/dist/vue-datetime.css';
+
+import { DateTime } from 'luxon';
+import { Datetime } from 'vue-datetime';
+
 import d3 from '@/assets/d3';
 import PnService from '@/services/pn-service';
 
@@ -161,6 +198,7 @@ import getName from '@/assets/designations';
 export default {
   data() {
     return {
+      loading: false,
       pnService: PnService,
       events: [],
       x: 0,
@@ -171,11 +209,15 @@ export default {
       stopped: true,
       animRef: undefined,
       clicked: false,
+      idpn: 'L112_LXEDUC',
+      crossings: [],
+      dateTime: DateTime.fromISO('2019-02-10T09:00'),
       getName,
     };
   },
   created() {
     this.getEvents();
+    this.getCrossings();
   },
   watch: {
     ev(newVal) {
@@ -187,6 +229,14 @@ export default {
     },
   },
   computed: {
+    dateTimeStr: {
+      get() {
+        return this.dateTime.toISO();
+      },
+      set(newVal) {
+        this.dateTime = DateTime.fromISO(newVal);
+      },
+    },
     ev() {
       return d3.nest()
         .key(d => d.varname)
@@ -218,11 +268,21 @@ export default {
       });
       return vars;
     },
+    crossingsOptions() {
+      return this.crossings.map(d => ({ value: d.idpn, text: d.idpn }));
+    },
   },
   methods: {
     getEvents() {
-      this.pnService.getEvents().then((data) => {
+      this.loading = true;
+      this.pnService.getEvents(this.idpn, this.dateTime).then((data) => {
         this.events = data;
+        this.loading = false;
+      });
+    },
+    getCrossings() {
+      this.pnService.getCrossings().then((data) => {
+        this.crossings = data;
       });
     },
     mouseX(payload) {
@@ -249,6 +309,7 @@ export default {
     },
   },
   components: {
+    datetime: Datetime,
     ChartDigitalComponent,
     LevelCrossingBarrier,
     LevelCrossingSignal,

@@ -2,8 +2,12 @@ import axios from 'axios';
 import { DateTime } from 'luxon';
 
 export default {
-  getEvents() {
-    return axios.get('json/l112_lxeduc.json').then(
+  getCrossings() {
+    return axios.get('/api/crossings').then(response => response.data);
+  },
+  getEvents(idpn, dt) {
+    const dateFrom = dt.toISO();
+    return axios.get(`/api/digital/${idpn}/${dateFrom}`).then(
       response => response.data.map(x => Object.assign(
         {},
         x,

@@ -6,4 +6,11 @@ module.exports = {
     'd3-array',
     'd3-scale',
   ],
+  devServer: {
+    proxy: {
+      '^/api': {
+        target: 'http://localhost:5000',
+      },
+    },
+  },
 };
