@@ -16,12 +16,12 @@
                 :kfb="activeVars.kfb_x"
               />
               <b-card class="text-center">
-                <span
+                <b-button variant="light"
                   v-for="v in ['cb_xy', 'kob_x', 'kfb_x']"
                   :key="v"
                   class="mr-3" v-b-tooltip.hover :title="names[v]"
                 >{{ v }}
-                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+                  <b-badge>{{ activeVars[v] }}</b-badge></b-button>
               </b-card>
             </b-col>
             <b-col class="text-center">
@@ -33,12 +33,12 @@
                 :reverse="-1"
               />
               <b-card class="text-center">
-                <span
+                <b-button variant="light"
                   v-for="v in ['cb_xy', 'kob_y', 'kfb_y']"
                   :key="v"
                   class="mr-3" v-b-tooltip.hover :title="names[v]"
                 >{{ v }}
-                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+                  <b-badge>{{ activeVars[v] }}</b-badge></b-button>
               </b-card>
             </b-col>
           </b-row>
@@ -54,12 +54,12 @@
                 :klr2="activeVars.klr2_xy"
               />
               <b-card class="text-center">
-                <span
+                <b-button variant="light"
                   v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
                   :key="v"
                   class="mr-3" v-b-tooltip.hover :title="names[v]"
                 >{{ v }}
-                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+                  <b-badge>{{ activeVars[v] }}</b-badge></b-button>
               </b-card>
             </b-col>
             <b-col>
@@ -71,12 +71,12 @@
                 :klr2="activeVars.klr2_xy"
               />
               <b-card class="text-center">
-                <span
+                <b-button variant="light"
                   v-for="v in ['cl', 'klp', 'klr1_xy', 'klr2_xy']"
                   :key="v"
                   class="mr-3" v-b-tooltip.hover :title="names[v]"
                 >{{ v }}
-                  <b-badge>{{ activeVars[v] }}</b-badge></span>
+                  <b-badge>{{ activeVars[v] }}</b-badge></b-button>
               </b-card>
             </b-col>
           </b-row>
@@ -91,14 +91,18 @@
                 :kga2="activeVars.kga2"
               />
               <b-card class="text-center">
-                <span class="mr-3" v-b-tooltip.hover :title="names['cl']">cl
-                  <b-badge>{{ activeVars.cl }}</b-badge></span>
+                <b-button variant="light"
+                  class="mr-3" v-b-tooltip.hover :title="names['cl']">cl
+                  <b-badge>{{ activeVars.cl }}</b-badge></b-button>
                 <span class="mr-3">
-                  <span v-b-tooltip.hover :title="names['kfb_x']">kfb_x</span> *
-                  <span v-b-tooltip.hover :title="names['kfb_y']">kfb_y</span>
+                  <b-button variant="light"
+                    v-b-tooltip.hover :title="names['kfb_x']">kfb_x</b-button> *
+                  <b-button variant="light"
+                    v-b-tooltip.hover :title="names['kfb_y']">kfb_y</b-button>
                    &nbsp;<b-badge>{{ activeVars.kfb_x * activeVars.kfb_y }}</b-badge></span>
-                <span class="mr-3" v-b-tooltip.hover :title="names['kga2']">kga2
-                  <b-badge>{{ activeVars.kga2 }}</b-badge></span>
+                <b-button variant="light" class="mr-3"
+                  v-b-tooltip.hover :title="names['kga2']">kga2
+                  <b-badge>{{ activeVars.kga2 }}</b-badge></b-button>
               </b-card>
             </b-col>
           </b-row>
@@ -108,8 +112,8 @@
             <b-badge variant="info" class="mr-1">{{ t.toLocaleString() }}</b-badge>
           </h5>
           <p>
-            <b-button @click="play" v-if="stopped">Play</b-button>
-            <b-button @click="stop" v-if="!stopped">Stop</b-button>
+            <b-button variant="success" @click="play" v-if="stopped">Play</b-button>
+            <b-button variant="danger" @click="stop" v-if="!stopped">Stop</b-button>
           </p>
         </b-card>
         <b-card header="Variables">
@@ -119,7 +123,8 @@
                 v-for="ch in ev"
                 :key="ch.key">
                 <td>
-                  <span v-b-tooltip.hover :title="names[ch.key]" v-once>{{ ch.key }}</span>
+                  <b-button variant="light" size="sm"
+                    v-b-tooltip.hover :title="names[ch.key]" v-once>{{ ch.key }}</b-button>
                 </td>
                 <td>
                   <ChartDigitalComponent
