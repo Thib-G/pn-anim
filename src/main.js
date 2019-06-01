@@ -1,6 +1,3 @@
-import 'core-js/fn/symbol';
-import 'core-js/fn/number/is-nan';
-
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
