@@ -39,10 +39,6 @@ import { TweenLite } from 'gsap';
 
 export default {
   props: {
-    cb: {
-      type: Number,
-      required: true,
-    },
     kob: {
       type: Number,
       required: true,

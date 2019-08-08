@@ -30,7 +30,6 @@
                   && activeVars.cb_xy !== undefined
                   && activeVars.kob_x !== undefined
                   && activeVars.kfb_x !== undefined"
-                :cb="activeVars.cb_xy"
                 :kob="activeVars.kob_x"
                 :kfb="activeVars.kfb_x"
               />

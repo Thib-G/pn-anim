@@ -10,13 +10,13 @@
             <LevelCrossingBarrier v-bind="valsBarrier" />
             <LevelCrossingBarrier v-bind="valsBarrier" :reverse="-1" />
           </div>
-          <div>
+          <!--<div>
             Commande barrière CB:
             <input type="radio" :value="1" v-model="valsBarrier.cb">1
             <input type="radio" :value="0" v-model="valsBarrier.cb">0
-          </div>
+          </div>-->
           <div>
-            Contrôle ouvertude barrière KOB:
+            Contrôle ouverture barrière KOB:
             <input type="radio" :value="1" v-model="valsBarrier.kob">1
             <input type="radio" :value="0" v-model="valsBarrier.kob">0
           </div>

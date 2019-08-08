@@ -74,9 +74,6 @@ export default {
     this.blink();
   },
   computed: {
-    d() {
-      return `M 0,0 ${this.width},0 ${this.width / 2},${this.height} z`;
-    },
     lp() {
       return this.cl * this.klp * this.tween;
     },
