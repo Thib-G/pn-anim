@@ -60,10 +60,10 @@
 
 <script>
 // @ is an alias to /src
+import { Linear, TweenLite } from 'gsap';
+
 import LevelCrossingBarrier from '@/components/LevelCrossingBarrier.vue';
 import LevelCrossingSignal from '@/components/LevelCrossingSignal.vue';
-import { setTimeout } from 'timers';
-import { Linear, TweenLite } from 'gsap';
 
 export default {
   name: 'home',
