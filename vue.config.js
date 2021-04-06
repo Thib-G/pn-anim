@@ -3,7 +3,7 @@ module.exports = {
     ? '/pn-anim/'
     : '/',
   transpileDependencies: [
-    'd3-array',
-    'd3-scale',
+    /d3-.+/,
+    'internmap',
   ],
 };
