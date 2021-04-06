@@ -123,7 +123,7 @@ export default {
       }];
     },
     activeRectangle() {
-      return this.rectangles.find(r => r.x <= this.mouseX && r.x + r.width > this.mouseX);
+      return this.rectangles.find((r) => r.x <= this.mouseX && r.x + r.width > this.mouseX);
     },
   },
 };

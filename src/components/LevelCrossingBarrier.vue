@@ -82,7 +82,7 @@ export default {
   },
   computed: {
     transform() {
-      return `rotate(${-this.tweenVal.x / (this.maxVal - this.minVal) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
+      return `rotate(${(-this.tweenVal.x / (this.maxVal - this.minVal)) * 90} ${this.barrierAnchor} ${this.barrierHeight / 2})`;
     },
     val() {
       if (this.kob === 0 && this.kfb === 0) {

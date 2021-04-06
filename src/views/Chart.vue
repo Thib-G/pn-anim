@@ -189,14 +189,14 @@ export default {
   computed: {
     ev() {
       return d3.nest()
-        .key(d => d.varname)
+        .key((d) => d.varname)
         .entries(this.events);
     },
     tsFrom() {
-      return new Date(Math.min(...this.events.map(e => e.ts_meas)));
+      return new Date(Math.min(...this.events.map((e) => e.ts_meas)));
     },
     tsTo() {
-      return new Date(Math.max(...this.events.map(e => e.ts_meas)));
+      return new Date(Math.max(...this.events.map((e) => e.ts_meas)));
     },
     scaleX() {
       return d3.scaleTime()

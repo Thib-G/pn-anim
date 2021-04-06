@@ -5,5 +5,6 @@ module.exports = {
   transpileDependencies: [
     /d3-.+/,
     'internmap',
+    'bootstrap-vue',
   ],
 };

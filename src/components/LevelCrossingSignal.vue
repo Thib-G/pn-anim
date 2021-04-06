@@ -99,7 +99,7 @@ export default {
     },
     blink() {
       const t = (Date.now() - this.t0) / 1000;
-      this.tween = (Math.sin(t * 2 * Math.PI / this.period) + 1) / 2;
+      this.tween = (Math.sin((t * 2 * Math.PI) / this.period) + 1) / 2;
       requestAnimationFrame(this.blink);
     },
   },
